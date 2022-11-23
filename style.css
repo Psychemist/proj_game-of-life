@@ -1,0 +1,155 @@
+#canvas {
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.popover-btn {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: rgb(51, 251, 128);
+    background-color: rgb(69, 43, 39);
+    margin: 0;
+    padding: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.bi-question-square {
+    height: 16px;
+    width: 16px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 43, 39);
+    padding: 5px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.pattern-btn-group {
+    margin-top: 0px;
+}
+
+.plus-minus-btn-group {
+    display: flex;
+}
+
+.btn {
+    border: orange;
+    background-color: blanchedalmond;
+    margin: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.random-color-mode,
+.keyboard-mode,
+.dark-mode {
+    background-color: rgb(235, 94, 101);
+    color: white;
+
+}
+
+
+
+
+
+
+.rate-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fps-wrapper,
+.zoom-wrapper {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}
+
+#fps {
+    width: 90px;
+    background-color: rgb(178, 220, 240);
+    border-radius: 1px;
+}
+
+#zoom {
+    background-color: rgb(178, 220, 240);
+    border-radius: 1px;
+}
+
+#fps:hover,
+#zoom:hover {
+    cursor: default !important;
+}
+
+.fps-criteria,
+.zoom-criteria {
+    font: 12px;
+    color: rgb(39, 87, 176);
+    font-weight: bold;
+}
+
+
+
+
+
+
+.rule-block-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(35, 90, 57);
+    border: rgb(34, 55, 41) 2px solid;
+    margin: 2px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 10px;
+
+}
+
+.criteria {
+    color: rgb(48, 219, 154);
+    font-weight: bold;
+    font-size: large;
+}
+
+.plus-btn,
+.minus-btn {
+    color: rgb(69, 43, 39);
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgb(251, 211, 78);
+    width: 28.8px;
+    height: 28.8px;
+    margin: 5px;
+}
+
+.plus-btn:hover,
+.minus-btn:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
